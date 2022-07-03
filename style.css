@@ -7,7 +7,7 @@ body{
 
 .top-banner{
     background-image: url(./bg-image/top-banners.jpg);
-    width: 100% position fixt coverd;
+    width: 100%;
     background-repeat: no-repeat;
     float: left;
 }
@@ -21,6 +21,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .hire-button{
