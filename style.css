@@ -1,25 +1,31 @@
 body{
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive;
     font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
     margin: 0;
+    padding: 0;
 }
 
 .top-banner{
-    background-image: url(./bg-image/top-banners.jpg);
-    width: 100%;
+    background-image: url(./bg-image/top-banner.png);
+    width: 100% ;
     background-repeat: no-repeat;
-    float: left;
+    height: 90vh;
 }
 
 h1{
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 0.2rem;
+    /* color: #fff; */
+    /* text-shadow: -2px -2px #000; */
+    
 }
 .orange-color{
     color: orange;
 }
 
-section{
+.flexible-content{
     display: flex;
     margin-bottom: 100px;
 }
@@ -27,9 +33,13 @@ section{
 .hire-button{
     border: none;
     background-image: linear-gradient(green, orange);
-    padding: 15px 40px;
+    padding: 10px 35px;
     border-radius: 3px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.4s;
+
 }
 
 .hire-button a{
@@ -41,22 +51,108 @@ section{
 }
 
 .hire-button:hover{
-    background: transparent;
+    opacity: 0.8;
 }
 
 .width-half{
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.banner-desc{
+    /* color: #fff; */
+    font-size: 2rem;
+    line-height: 2.5rem;
+    /* text-align: justify; */
+    font-family: 'Dancing Script', cursive;
 }
 
 .width-half img{
-    width: 90%;
-    height: 500px;
-    /* border-radius: 50%; */
-    border: 1px solid red;
-    padding: 3px;
-    margin: 0 auto;
+    height: 400px;
+    width: 350px;
+    float: right;
+    margin-right: 25%;
+    margin-top: 15%;
+    border-radius: 30%;
+    box-shadow: 5px 5px 15px gray ;
+    background-color: red;
+
 }
+
+.dream-big {
+    align-items: flex-end;
+    padding-bottom: 150px;
+    height: 90vh;
+}
+#dream-big-bg{
+    background-image: url(./bg-image/dream-bg.png);
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.dream-big h2{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 00.2rem;
+}
+.dream-big-desc{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.exprience{
+    background-image: url(./bg-image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+    
+}
+.exprience h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 00.2rem;
+    margin-bottom: 42px;
+}
+.exprience h4{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.exprience h5{
+    font-size: 1.3rem;
+    color: red;
+}
+.exp-det{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.exp-card {
+    box-sizing: border-box;
+    height: 65vh;
+    box-shadow: 6px 7px 40px grey;
+    padding-left: 25px;
+    transition: transform 0.4s;
+    border-left: 10px solid purple;
+}
+#card-border{
+    border-left: 10px solid coral;
+}
+.exp-card:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+}
+
+
+
 
 
 
